@@ -13,7 +13,45 @@ O projeto segue a licença MIT e o código pode ser usado por qualquer pessoa, b
 E, quando puder, compre o curso! Vale muito a pena! :D
 
 **Como instalar.**
-> Em progresso
 
-**Coisas interessantes abordadas no curso durante este projeto:**
+O projeto utiliza duas aplicações:
+A aplicação em Vue.js (pasta "social") é o frontend da rede-social. É uma SPA que consome os dados de uma api.
+A aplicação em Laravel (pasta "webserice") é a api que provém dados para a rede-social.
+As duas aplicações rodam em portas diferentes e ambas necessitam ter seus pacotes instalados.
+
+A aplicação "social" necessita ter o [Node.js](https://nodejs.org) e o [Vue-cli](https://cli.vuejs.org/) (caso queria desenvolver no projeto) para ser utilizada.
+
+A aplicação "webservice" necessita ter o [Composer](https://getcomposer.org/) para ser utilizada. Ela utiliza o framework [Laravel](https://laravel.com/) que, por sua vez, utiliza o [Artisan](https://laravel.com/docs/5.6/artisan).
+
+**Suba o webservice**
+Na pasta "webservice":
+Para instalar as dependências:
+```
+composer install
+```
+
+Para instalar as migrações do banco de dados:
+```
+php artisan migrate
+```
+
+Para rodar o server:
+```
+php artisan serve
+```
+
+**Depois suba a rede-social**
+Na pasta "social".
+
+Para instalar as dependências:
+```
+npm install
+```
+
+Para rodar o server:
+```
+npm start
+```
+
+###Coisas interessantes abordadas no curso durante este projeto:
 > Em progresso
