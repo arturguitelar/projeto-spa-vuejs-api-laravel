@@ -8,11 +8,11 @@ Versão Laravel utilizada: 5.6.39.
 
 Versão Vuejs utilizada: 2.5.17.
 
-O projeto segue a licença MIT e o código pode ser usado por qualquer pessoa, basta que se dê as devidas referências.
+O projeto segue a [licença MIT](https://opensource.org/licenses/MIT) e o código pode ser usado por qualquer pessoa, basta que se dê as devidas referências.
 
-E, quando puder, compre o curso! Vale muito a pena! :D
+**E, quando puder, compre o curso! Vale muito a pena! :D**
 
-**Como instalar.**
+### Instalção e utilização.
 
 O projeto utiliza duas aplicações:
 A aplicação em Vue.js (pasta "social") é o frontend da rede-social. É uma SPA que consome os dados de uma api.
@@ -24,6 +24,7 @@ A aplicação "social" necessita ter o [Node.js](https://nodejs.org) e o [Vue-cl
 A aplicação "webservice" necessita ter o [Composer](https://getcomposer.org/) para ser utilizada. Ela utiliza o framework [Laravel](https://laravel.com/) que, por sua vez, utiliza o [Artisan](https://laravel.com/docs/5.6/artisan).
 
 **Suba o webservice**
+
 Na pasta "webservice":
 Para instalar as dependências:
 ```
@@ -41,6 +42,7 @@ php artisan serve
 ```
 
 **Depois suba a rede-social**
+
 Na pasta "social".
 
 Para instalar as dependências:
@@ -53,5 +55,20 @@ Para rodar o server:
 npm start
 ```
 
-###Coisas interessantes abordadas no curso durante este projeto:
-> Em progresso
+### Coisas interessantes abordadas no curso durante este projeto:
+
+- [Vue CLI]((https://cli.vuejs.org/)).
+- [AdminLTE](https://adminlte.io/).
+- Componentes do [Materialize](https://materializecss.com/).
+- [Axios](https://github.com/axios/axios)
+- Sistemas de Login e Cadastro.
+- OOP.
+- CRUD.
+- Como criar e consumir uma Api RESTful.
+- Upload de imagens.
+- CORS no Laravel.
+- Migrações e relacionamentos no banco de dados.
+- [Vuex](https://vuex.vuejs.org/).
+- Tinker.
+- Sistema de "follow" de rede-social.
+- Páginas de perfil e listagem de amigos.
