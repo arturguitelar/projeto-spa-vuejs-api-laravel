@@ -15,6 +15,7 @@ O projeto segue a [licença MIT](https://opensource.org/licenses/MIT) e o códig
 ### Instalação e utilização.
 
 O projeto utiliza duas aplicações:
+
 A aplicação em Vue.js (pasta "social") é o frontend da rede-social. É uma SPA que consome os dados de uma api.
 A aplicação em Laravel (pasta "webserice") é a api que provém dados para a rede-social.
 As duas aplicações rodam em portas diferentes e ambas necessitam ter seus pacotes instalados.
@@ -22,6 +23,7 @@ As duas aplicações rodam em portas diferentes e ambas necessitam ter seus paco
 A aplicação "social" necessita ter o [Node.js](https://nodejs.org) e o [Vue-cli](https://cli.vuejs.org/) (caso queria desenvolver no projeto) para ser utilizada.
 
 A aplicação "webservice" necessita ter o [Composer](https://getcomposer.org/) para ser utilizada. Ela utiliza o framework [Laravel](https://laravel.com/) que, por sua vez, utiliza o [Artisan](https://laravel.com/docs/5.6/artisan).
+
 
 **Suba o webservice**
 
@@ -40,6 +42,7 @@ Para rodar o server:
 ```
 php artisan serve
 ```
+
 
 **Depois suba a rede-social**
 
