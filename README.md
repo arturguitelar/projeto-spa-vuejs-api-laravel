@@ -12,7 +12,7 @@ O projeto segue a [licença MIT](https://opensource.org/licenses/MIT) e o códig
 
 **E, quando puder, compre o curso! Vale muito a pena! :D**
 
-### Instalção e utilização.
+### Instalação e utilização.
 
 O projeto utiliza duas aplicações:
 A aplicação em Vue.js (pasta "social") é o frontend da rede-social. É uma SPA que consome os dados de uma api.
